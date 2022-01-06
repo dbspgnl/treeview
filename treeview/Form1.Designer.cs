@@ -69,6 +69,8 @@
             this.lboxCommand.Name = "lboxCommand";
             this.lboxCommand.Size = new System.Drawing.Size(302, 76);
             this.lboxCommand.TabIndex = 1;
+            this.lboxCommand.Click += new System.EventHandler(this.lboxCommand_Click);
+            this.lboxCommand.DoubleClick += new System.EventHandler(this.lboxCommand_DoubleClick);
             // 
             // tboxFile
             // 
@@ -106,6 +108,7 @@
             this.btnCopy.TabIndex = 5;
             this.btnCopy.Text = "Copy";
             this.btnCopy.UseVisualStyleBackColor = true;
+            this.btnCopy.Click += new System.EventHandler(this.btnCopy_Click);
             // 
             // groupBox1
             // 
